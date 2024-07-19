@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    tools:context=".SimpanData">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tambah Data"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:textColor="#009688"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadnama"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:hint="Masukkan Nama"
+                android:gravity="start|center_vertical"
+                android:textColor="#009688"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadalamat"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:hint="Masukkan Alamat"
+                android:gravity="start|center_vertical"
+                android:textColor="#009688"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadnomor_hp"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:hint="Masukkan Nomor Hp"
+                android:gravity="start|center_vertical"
+                android:textColor="#009688"/>
+
+
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#009688"
+                android:text="Simpan Data"
+                android:textColorLink="#009688"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

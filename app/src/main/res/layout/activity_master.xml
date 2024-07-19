@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout4"
+        android:layout_width="416dp"
+        android:layout_height="110dp"
+        android:background="@drawable/radiusbuttontop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="414dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="35dp"
+            android:text="Menu"
+            android:textAlignment="center"
+            android:textColor="#FEFEFE"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/framepetugas"
+        android:layout_width="321dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout4">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/radiusbutton1">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="10dp"
+                android:text="Petugas"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/imageView6"
+            android:layout_width="91dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center|top"
+            android:background="@drawable/radiusbulat">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="136dp"
+                android:layout_height="132dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/adminlogo" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/framelokasi"
+        android:layout_width="321dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/framepetugas">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/radiusbutton1">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="10dp"
+                android:text="Lokasi"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/imageView6"
+            android:layout_width="91dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center|top"
+            android:background="@drawable/radiusbulat">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="91dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/lokasi" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="321dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/framelokasi">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/radiusbutton1">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="10dp"
+                android:text="Kategori"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/imageView6"
+            android:layout_width="91dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center|top"
+            android:background="@drawable/radiusbulat">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="116dp"
+                android:layout_height="145dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/kategori" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/framepembayaran"
+        android:layout_width="321dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/radiusbutton1">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_marginBottom="10dp"
+                android:text="Metode Pembayaaran"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/imageView6"
+            android:layout_width="91dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center|top"
+            android:background="@drawable/radiusbulat">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="91dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/metodepembayaran" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
